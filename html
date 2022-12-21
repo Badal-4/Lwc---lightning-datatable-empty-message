@@ -1,0 +1,10 @@
+<template>
+  <lightning-datatable data={data} columns={columns} key-field="id">
+    <template slot="empty-state">
+      <div class="slds-text-align_center slds-p-vertical_medium">
+        <p class="slds-text-heading_medium">No records found</p>
+        <p>Try modifying your filters or search term.</p>
+      </div>
+    </template>
+  </lightning-datatable>
+</template>
